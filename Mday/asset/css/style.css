@@ -1,0 +1,249 @@
+
+body header
+{
+    font-family: 'Chonburi', cursive;
+}
+article{
+    font-family: 'Kanit', sans-serif;
+}
+/* css header */
+.bg-light{
+    background-color: #FBDF57 !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #1C1D21;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color:#ffff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: #ffff;
+    -webkit-transition:all 0.2s ease-in-out;
+    -webkit-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+.navbar-brand {
+    max-width: 50%;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-control-next, .carousel-control-prev{
+    background-color: transparent !important;
+}
+.carousel-control-next {
+    right: 40px !important;
+}
+.carousel-control-prev{
+    left: 40px !important;
+}
+
+
+/* end css header */
+.pt2{
+    padding-top: 2rem;
+}
+.pb2{
+    padding-bottom: 2rem;
+}
+.text-cen{
+    text-align: center;
+}
+.nav-footer{
+    background-color: #f8f9fa;
+    font-family: 'Kanit', sans-serif;
+}
+
+.btn-primary{
+    background-color: #FBDF57;
+    color: #1C1D21 ;
+    border-color:#FBDF57; 
+    display:inline-block;
+    width: 100%;
+    line-height:24px;
+    text-align:center;
+    white-space:nowrap;
+    vertical-align:middle;
+    -ms-touch-action:manipulation;
+    touch-action:manipulation;
+    cursor:pointer;
+    padding:5px 20px;
+    font-size:1rem;
+    border-radius:2rem;
+    -webkit-transition:all 0.2s ease-in-out;
+    -webkit-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;color:#4A4A4A;
+}
+.btn:focus, .btn:hover{
+    background-color: #387ABE;
+}
+
+.nav-footer{
+    background-color: #387ABE;
+    color: #fff;
+}
+
+/*index.boxitem*/
+.box-item {
+    padding-bottom: 10px;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.5);
+    border-radius: 5px;
+}
+.mt-4 {
+    margin-top: 1.5rem!important;
+}
+.radio-img {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.w-100 {
+    width: 100%!important;
+}
+.d-block {
+    display: block!important;
+}
+.fontChon{
+   font-family: 'Chonburi', cursive;
+}
+.fontKanit{
+   font-family: 'Kanit', sans-serif;
+}
+.c_yellow{
+    color: #FBDF57!important;
+}
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+.top-box {
+    border-bottom: .05em solid #e4e4e4;
+}
+.concert-date {
+    margin: 8px 10px;
+    line-height: 19px;
+    padding: 5px 0;
+    overflow: hidden;
+}
+
+@media all and (max-width: 768px) {
+    .concert-date p{ font-size: 0.5rem; }
+}
+.btn-info{
+    background-color:#FBDF57; border:none;"
+}
+.btn-info:hover{
+
+    cursor: pointer;
+    background-color: #387ABE !important;
+    -webkit-transition:all 0.2s ease-in-out;
+    -webkit-transition:all 0.2s ease-in-out;
+}
+.btn-danger{
+    border: none !important;
+}
+.btn-danger:hover{
+    cursor: pointer;
+    border: none;
+    color: #fff;
+     background-color: #bd2130 !important;
+    -webkit-transition:all 0.2s ease-in-out;
+    -webkit-transition:all 0.2s ease-in-out;
+}
+
+
+.concert-name {
+    font-weight: 700;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    padding: 10px!important;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: keep-all;
+}
+.mt-1 {
+    margin-top: .25rem!important;
+}
+.mt-2 {
+    margin-top: .50rem!important;
+}
+.concert-price {
+    letter-spacing: .5px;
+    border-right: .05em solid #e4e4e4;
+    margin: 8px 0;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 19px;
+    padding: 5px 0;
+    overflow: hidden;
+}
+.concert-place {
+    margin-top: 2px;
+    padding: 5px 0 0;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #4a4a4a;
+}
+.center {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btn-booking-style {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.btn-booking-style .btn-primary {
+    background-color: #FBDF57;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    width: 80%;
+    font-size: 1.25rem;
+    height: 60px;
+    padding-top: 20px;
+}
+.btn-booking-style .btn-primary:hover{
+    background-color: #387ABE;
+    color: #fff;
+    -webkit-transition:all 0.2s ease-in-out;
+    -webkit-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+@media all and (max-width: 768px) {
+    .btn-booking-style .btn-primary { font-size: 1rem; }
+}
+@media all and (max-width: 768px) {
+    .concert-date h4{ font-size: 1.5rem; }
+}
+.top-k{
+    margin-top: 84px;
+}
+.search-style input{
+    height: 35px;
+    border: 1px solid #CCC;
+    border-radius: 73px;
+    background-color: #E1E1E1;
+    font-size: 14px;
+    padding: 8px 15px;
+}
+.search-submit{
+    background-color: #FBDF57 !important;
+}
+.search-submit:hover{
+    cursor: pointer;
+    background-color: #387ABE !important;
+    color: #fff;
+    -webkit-transition:all 0.2s ease-in-out;
+    -webkit-transition:all 0.2s ease-in-out;
+}
+
+
+
+
+
+
+
